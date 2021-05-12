@@ -1,0 +1,4 @@
+﻿  Main.cpp
+d:\rudi\compn coding\computer graphics\opengl\ogltut\ogltut\main.cpp(82): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+d:\rudi\compn coding\computer graphics\opengl\ogltut\ogltut\main.cpp(89): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  OGLTut.vcxproj -> D:\RUDI\COMPN CODING\Computer Graphics\OpenGl\OglTut\OGLTut\Debug\OGLTut.exe

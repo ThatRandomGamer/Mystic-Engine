@@ -1,0 +1,9 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+D:\RUDI\COMPN CODING\Computer Graphics\OpenGl\OglTut\OGLTut\libraries\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\RUDI\COMPN CODING\Computer Graphics\OpenGl\OglTut\OGLTut\x64\Debug\OGLTut.exe : fatal error LNK1120: 6 unresolved externals
