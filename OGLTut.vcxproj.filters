@@ -16,12 +16,21 @@
     <Filter Include="Resource Files\shaders">
       <UniqueIdentifier>{355f9296-3066-498a-b850-3dd71f13bff3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{23a63184-7ca1-4c91-945f-d76eabcd73f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gl.c">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="shaderClass.cpp">
@@ -30,10 +39,10 @@
     <ClCompile Include="VBO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VAO.cpp">
+    <ClCompile Include="stb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EBO.cpp">
+    <ClCompile Include="Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,17 +55,43 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shaderClass.h">
+    <ClInclude Include="EBO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VBO.h">
+    <ClInclude Include="shaderClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VAO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EBO.h">
+    <ClInclude Include="VBO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\bricks.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\cobblestone.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\sandstone.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\sandstone_bottom.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\sandstoneB.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\stone.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="resources\stone_bricks.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
