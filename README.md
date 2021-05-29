@@ -9,14 +9,14 @@ This project uses OpenGL 3.3 (soon to be upgraded to 4.3 which is the max my gpu
 Glad and GLFW. I also use OpenGl M, a maths library for OpenGl. Vulkan, DX12 Ultimate support is planned. I will be using OpenAL soft as my audio
 library, will add more stuff later. I will be using my own physics engine(might add support for Bullet but I wanna learn how to make my own).
 
-##Current Feature Roadmap: 
+**Current Feature Roadmap:**
 - Advanced Lighting
 - Different texture map support
 - Physics including basic soft and hard body, cloth, particles and fluids simulation.
 - Basic audio handling
 - Scene system
 
-##Future features that maybe added:
+**Future features that maybe added:**
 - Advanced physics sims
 - Fully PBR rendering as well as support for cell/cartoon aesthetics
 - Engine GUI 
